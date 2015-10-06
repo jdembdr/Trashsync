@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html class="ui-mobile">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=windows-1252"><!-- base href="http://www.androidexample.com/media/webview/details.html" -->
+    <link rel="stylesheet" href="camera_files/jquery.css">
+    <script src="camera_files/jquery-1.js"></script>
+    <script src="camera_files/jquery.js"></script>
+
+<title>PRODUCT DETAIL</title>
+</head>
+
+<body class="ui-mobile-viewport ui-overlay-c">
+
+<div data-url="pageone" data-role="page" id="pageone">
+  <div role="banner" data-role="header">
+    <h1 aria-level="1" role="heading" class="ui-title">PRODUCT DETAIL</h1>
+  </div>
+  <div role="main" data-role="content">
+    <form method="get" action="">
+       <div data-role="fieldcontain">
+           <label for="name"> Open File Chosser And Select File From Camera :</label>
+           <div>
+               <input name="text" id="name" type="file"/>
+           </div>
+       </div>
+
+        <div data-role="fieldcontain">
+          <label for="name"> Email:</label>
+          <div>
+              <input name="text" id="name" placeholder="What's Your Name?" type="text"/>
+          </div>
+      </div>
+
+        <div class="ui-field-contain ui-body ui-br" data-role="fieldcontain">
+            <label class="ui-input-text" for="search">
+                Looking for anything?
+            </label>
+            <div>
+                <input class="ui-input-text ui-body-c" name="search" id="search" placeholder="Search for content" data-type="search" type="text"/>
+                <a data-mini="false" data-theme="c" data-iconpos="notext" data-icon="delete" data-wrapperels="span" data-iconshadow="true" data-shadow="true" data-corners="true" href="#" class="ui-input-clear ui-btn ui-btn-up-c ui-shadow ui-btn-corner-all ui-fullsize ui-btn-icon-notext ui-input-clear-hidden" title="clear text">
+                    <span class="ui-btn-inner">
+                        <span class="ui-btn-text">clear text</span>
+                        <span class="ui-icon ui-icon-delete ui-icon-shadow">&nbsp;</span>
+                    </span>
+                </a>
+            </div>
+        </div>
+
+      <div class="ui-field-contain ui-body ui-br" data-role="fieldcontain">
+          <label for="colors">
+              <a class="ui-link" href="http://www.androidexample.com/media/webview/webview_browser.html">
+              Open link in webview browser.
+              </a>
+          </label>
+          <br><br>
+          <label for="colors">
+              <a class="ui-link" href="http://www.google.com/">Open link in new browser.</a>
+          </label>
+      </div>
+    </form>
+  </div>
+
+
+</div>
+
+
+
+<div class="ui-loader ui-corner-all ui-body-a ui-loader-default"><span class="ui-icon ui-icon-loading"></span><h1>loading</h1></div></body></html>
